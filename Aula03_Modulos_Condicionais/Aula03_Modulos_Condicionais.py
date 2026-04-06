@@ -41,6 +41,13 @@ def calculo_angulo(angulo):
     print(f"Seno: {seno:.2f}, Cosseno: {cosseno:.2f}, Tangente: {tangente:.2f}")
     
 calculo_angulo(int(input("Digite um ângulo: ")))
+
+def soma(num_a, num_b):
+    soma = num_a+num_b
+    return soma
+    # return num_a+num_b
+
+print(soma(int(input("Digite o primeiro número: ")),int(input("Digite o segundo número: "))))
 '''
 
 # Condicionais

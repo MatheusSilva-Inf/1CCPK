@@ -44,7 +44,7 @@ maiorRisco = 0
 
 
 for i in range(len(temperaturas)):
-    for j in range(len(temperaturas)):
+    for j in range(len(temperaturas[i])):
         if temperaturas[i][j] >= 33:
           resgistrosCrit[i] = resgistrosCrit[i]+1
         mediasTemp[i] += temperaturas[i][j]
@@ -61,3 +61,4 @@ for i in range(1,len(resgistrosCrit)):
         maiorRisco = i+1
 
 print(f"Sala com maior risco: Sala {maiorRisco}")
+
